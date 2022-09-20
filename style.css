@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.card {
+    display: flex;
+    column-gap: 19px;
+    margin: 40px;
+}
+
+.card img {
+    max-width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.navbar p {
+    font-weight: 500;
+    font-size: 14.46px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+/* TravelCard */
+.location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.location img {
+    width: 7px;
+    height: 9.55px; 
+    margin-right: 4px;
+}
+
+.location h6 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.17em;
+    margin-right: 12px;
+    color: #2B283A;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+}
+
+.location a {
+    font-size: 10px;
+    font-weight: 400;
+    color: #918E9B;
+    /* text-decoration: underline; */
+}
+
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 9px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin: 0;
+    padding-bottom: 9px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    margin: 0;
+}
